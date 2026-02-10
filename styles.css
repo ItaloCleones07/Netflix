@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+    background-color: black;
+}
+
+body::before { /* Para colocar uma imagem de fundo na tela */
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    background-image: url(./img/Logo_Fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center; /* Alinha vertical, utilizado somente quando tem o display:flex */
+    justify-content: center; /* Alinha horizontal, utilizado somente quando tem o display:flex*/
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.logo_netflix {
+    width: 12%;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+header {
+    width: auto;
+    height: 60px;
+}
+
+main {
+    position: relative;
+    background: black;
+    z-index: 0;
+    margin: 0 auto;
+    width: 40%;
+    height: 590px;
+    opacity: 0.8
+}
+
+.facebook {
+    width: 5vw;
+    height: 5vh;
+}
