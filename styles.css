@@ -113,8 +113,43 @@ a {
     opacity: 0.9;
 }
 
+.checkbox {
+    position: relative;
+    margin-top: 10px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.ajuda {
+    display: inline-block;
+    margin-left: 95px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
 .facebook {
-    width: 5vw;
-    height: 5vh;
-    z-index: 1;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 110px;
+}
+
+.conectarFacebook {
+    display: inline-block;
+    position: fixed;
+    font-size: 15px;
+    line-height: 15px;
+    color: white;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    margin-top: 121px;
+    margin-left: 7px;
+}
+
+.novo {
+    color: white;
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 10px;
 }
