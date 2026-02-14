@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 body {
@@ -16,7 +17,6 @@ body {
 }
 
 .paragrafo {
-    color: white;
     text-align: center;
     font-size: 50px
 }
@@ -35,7 +35,9 @@ body {
     width: 200px;
     height: 200px;
     position: relative;
-    margin-top: -3px;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 25px;
 }
 
 .icons {
@@ -53,14 +55,20 @@ body {
     justify-content: center;
     align-items: center;
     width: 55%;
-    margin: 50px auto
+    margin: 50px auto;
 }
 
 .adicionar:hover {
     background-color: #1c1c1c;
 }
 
-#nome {
-    color: white;
+.nome {
     text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.text-perfil {
+    position: relative;
+    margin-left: 35px;
 }
