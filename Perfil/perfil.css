@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#logo {
+    width: 12%;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+.paragrafo {
+    color: white;
+    text-align: center;
+    font-size: 50px
+}
+
+.perfil {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.adicionar {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: -3px;
+}
+
+.icons {
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.icons:hover {
+    width: 220px;
+    height: 220px;
+}
+
+#icons-adc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    margin: 50px auto
+}
+
+.adicionar:hover {
+    background-color: #1c1c1c;
+}
