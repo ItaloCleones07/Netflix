@@ -30,16 +30,6 @@ body {
     cursor: pointer;
 }
 
-.adicionar {
-    background-color: black;
-    width: 200px;
-    height: 200px;
-    position: relative;
-    margin-top: -20px;
-    text-align: center;
-    font-size: 25px;
-}
-
 .icons {
     margin-left: 30px;
     border-radius: 5px;
@@ -50,16 +40,41 @@ body {
     height: 220px;
 }
 
+.icons:active {
+    width: 200px;
+    height: 200px;
+}
+
+.adicionar {
+    background-color: black;
+    position: relative;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 25px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.adicionar:hover {
+    width: 220px;
+    height: 220px;
+    font-size: 27px;
+}
+
+.adicionar:active {
+    background-color: #1C1C1C;
+    width: 200px;
+    height: 200px;
+}
+
 #icons-adc {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 55%;
     margin: 50px auto;
-}
-
-.adicionar:hover {
-    background-color: #1c1c1c;
+    cursor: pointer;
 }
 
 .nome {
@@ -71,4 +86,23 @@ body {
 .text-perfil {
     position: relative;
     margin-left: 35px;
+}
+
+#gerenciar {
+    border: 1px solid grey;
+    display: block;
+    position: fixed;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 450px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+#gerenciar:active {
+    background-color: grey;
+    opacity: 0.9;
 }
