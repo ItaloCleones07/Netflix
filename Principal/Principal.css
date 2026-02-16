@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+aside {
+    width: 60px;
+    height: 100vh;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-right: 2px solid grey;
+    display: inline-block;
+}
+
+.lateral {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+main {
+    width: 100vw;
+    height: 60vh;
+    display: inline-block;
+}
+
+.destaque {
+    width: 40vw;
+    height: 50vh;
+}
