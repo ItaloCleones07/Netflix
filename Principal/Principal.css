@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
     color: #FFFFFF;
 }
 
 body {
     background-color: black;
+    overflow: hidden;
 }
 
 aside {
@@ -23,7 +25,7 @@ aside {
     width: 25px;
     height: 25px;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 20px;
     cursor: pointer;
 }
@@ -37,10 +39,12 @@ main {
 }
 
 .destaque {
-    width: 50vw;
-    height: 50vh;
+    width: 55vw;
+    height: 55vh;
     position: absolute;
-    right: 0;
+    right: 0px;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .principal {
@@ -50,17 +54,65 @@ main {
 }
 
 .text {
-    width: 40vw;
+    width: 45vw;
     height: 50vh;
+    position: relative;
+    top: 30px;
+    left: 20px;
 }
 
 .descricao {
     position: absolute;
-    bottom: 30px;
-    line-height: 30px;
-    font-size: 25px;
+    bottom: 50px;
+    line-height: 27px;
+    font-size: 23px;
+    font-weight: 100;
 }
 
 .relacao {
-    
+    position: absolute;
+    bottom: 160px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.porcentagem {
+    color: #65D449;
+}
+
+.text-cima {
+    position: relative;
+    left: 15px;
+    width: 300px;
+    font-weight: 250;
+}
+
+.titulo{
+    font-size: 50px;
+    width: 300px;
+    text-align: center;
+}
+
+.titulo b {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+.filme1, .filme2, .filme3, .filme4, .filme5 {
+    position: relative;
+    margin-right: 10px;
+    width: 265px;
+    height: 150px;
+}
+
+.filme1:hover, .filme2:hover, .filme3:hover, .filme4:hover, .filme5:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+h3 {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 200px;
 }
