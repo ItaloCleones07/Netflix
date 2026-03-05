@@ -8,7 +8,6 @@
 
 body {
     background-color: black;
-    overflow: hidden;
 }
 
 aside {
@@ -36,6 +35,11 @@ main {
     display: inline-block;
     position: absolute;
     right: 0;
+    overflow-x: hidden;
+}
+
+main::-webkit-scrollbar {
+    width: 5px;
 }
 
 .destaque {
@@ -98,14 +102,14 @@ main {
     font-weight: 900;
 }
 
-.filme1, .filme2, .filme3, .filme4, .filme5 {
+.filmes {
     position: relative;
-    margin-right: 10px;
-    width: 265px;
+    margin-right: 5px;
+    width: 263px;
     height: 150px;
 }
 
-.filme1:hover, .filme2:hover, .filme3:hover, .filme4:hover, .filme5:hover {
+.filmes:hover {
     border: 2px solid white;
     cursor: pointer;
 }
